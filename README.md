@@ -56,7 +56,7 @@ Open the LittleArmBIG_GUI_VO_4.1.py and run it on your computer/Mac
 
   for downloading them for the specific python2 version try to use the following command:
 
-  '> python2 pip -m <libary>'
+  `> python2 pip -m <libary>`
 
 
 All the code that we used by now is from the LittleArm_BIG Website **website**. In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
