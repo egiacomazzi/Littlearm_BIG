@@ -1,4 +1,4 @@
-# Littlearm_BIG
+# LittleArm BIG
 
 This document is aiming to help you setting up the LittleArm Big. It describes most of the steps I had to take before I figured out how it really works. Let me know if something is really wrong or if you had to face different problems.
 
@@ -27,20 +27,20 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 ## 3. Code ##
 
 ### Download ##
-Have a look at the original [LittleArm download website](https://www.littlearmrobot.com/downloads.html  "Downloads")
+Have a look at the original [LittleArm download website](https://www.littlearmrobot.com/downloads.html  "Downloads").
 
-The package for the LittleArm Big can be downloaded from this repository as well. It is the zip file I mentioned earlier: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip)
+The package for the LittleArm Big can be downloaded from this repository as well. It is the zip file I mentioned earlier: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip).
 
 ### Bluetooth App (Android) ###
 
 How does it work?
 * connect Bluetooth antenna to board
-* open Bluetooth devices on your phone -> add the Arduino
-* open the app you downloaded at the PlayStore **link to playstoreapp**
+* open Bluetooth devices on your phone -> add the Arduino to it
+* open the [app](https://play.google.com/store/apps/details?id=appinventor.ai_slantconcepts.LittleArmBig) you downloaded at the Google Play store
 * select the right Bluetooth device and start moving the arm!
 
 ### Python Desktop App ###
-Open the LittleArmBIG_GUI_VO_4.1.py and run it on your computer/Mac
+Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBig_GUI_V0_4.1.py) and run it on your computer/Mac.
 
 #### Good to know: ####
 * You will need the **USB-cable** as well as the **power supply** cable connected to the board
@@ -59,7 +59,7 @@ Open the LittleArmBIG_GUI_VO_4.1.py and run it on your computer/Mac
   `> python2 pip -m <libary>`
 
 
-All the code that we used by now is from the LittleArm_BIG Website **website**. In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
+All the code that we used by now is from the [LittleArm Website](https://www.littlearmrobot.com/). In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
 
 ## 4. My Code ##
 **to be continued...**
