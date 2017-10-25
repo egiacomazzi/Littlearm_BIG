@@ -1,6 +1,6 @@
 # LittleArm BIG
 
-In this document I will put together the steps I took working with the Kickstarter Project LittleArm BIG during my internship at the [Social Robot lab](http://www.soba-lab.com) at Bangor University. Besides making the work with the robot easier for the next person in the lab I wanted to share my experiences and complications working with it.
+In this document I will put together the steps I took working with the Kickstarter Project [LittleArm BIG](https://www.kickstarter.com/projects/slantrobotics/littlearm-big-a-robot-arm-for-makers-and-education?lang=de) during my internship at the [Social Robot lab](http://www.soba-lab.com) at Bangor University. Besides making the work with the robot easier for the next person in the lab I wanted to share my experiences and complications working with it.
 
 ## 1. Construction ##
 
