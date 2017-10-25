@@ -21,7 +21,7 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
       - **YES**, great have a look at the Code section of this README **CODE link**.  
       - **NO**, check the following things:  
           Is it possible to upload Arduino Sketches onto the board?  
-              - **YES**, upload the sketch you will find in the .zip folder or just download this: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip)
+              - **YES**, upload the [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) or download the whole zip file: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip)  
               - **NO**, you probably have a cloned Arduino Nano. You will have to reboot it and please follow the instructions [here.](http://www.instructables.com/id/How-To-Burn-a-Bootloader-to-Clone-Arduino-Nano-30/  "Bootloader") If you successfully did that have a look at the **YES** section above and upload the right [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) onto your Arduino Nano.
 
 ## 3. Code ##
@@ -29,7 +29,7 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 ### Download ##
 Have a look at the original [LittleArm download website](https://www.littlearmrobot.com/downloads.html  "Downloads")
 
-The package for the LittleArm Big can be downloaded from this repository as well. **link to .zip**
+The package for the LittleArm Big can be downloaded from this repository as well. It is the zip file I mentioned earlier: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip)
 
 ### Bluetooth App (Android) ###
 
