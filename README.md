@@ -1,6 +1,6 @@
 # LittleArm BIG
 
-This document is aiming to help you setting up the LittleArm Big. It describes most of the steps I had to take before I figured out how it really works. Let me know if something is really wrong or if you had to face different problems.
+In this document I will put together the steps I took working with the Kickstarter Project LittleArm BIG during my internship at the [Social Robot lab](http://www.soba-lab.com) at Bangor University. Besides making the work with the robot easier for the next person in the lab I wanted to share my experiences and complications working with it.
 
 ## 1. Construction ##
 
@@ -8,21 +8,21 @@ Use this website to put the robot-arm together:
 [Construction of LittleArm_BIG](http://www.instructables.com/id/LittleArm-Big/  "Construction of LittleArm_BIG")
 
 #### Problems I have had while doing that: ####
-* one servo did not work at the beginning -> opened it and put it back together -> servo moved
+* one servo did not work at the beginning -> opened it up and put it back together -> servo worked
 * had to file the *elbow* to let the arm move without resistance
 insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 * one of the servo gripper fingers broke
-* the wrist yoke broke and I had to glue it with the strongest glue the IT had (wait 24h)
+* the wrist yoke broke and I had to glue it with the strongest glue the IT had (waited 24h)
 * power supply cable stopped to work
 
 ## 2. First steps ##
-1. Connect power supply and switch on the Arduino board (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
+1. Connect power supply to the Arduino board and switch it on (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
 2. Did the arm move to its starting-position?  
-      - **YES**. -> Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
-      - **NO**. -> Check the following things:  
+      - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
+      - **NO**. Check the following things:  
           Is it possible to upload Arduino Sketches onto the board?  
-              - **YES**. -> Upload this [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) you can also find it in the [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip).  
-              - **NO**. -> You probably have a cloned Arduino Nano board. You will have to reboot it by following these instructions [here.](http://www.instructables.com/id/How-To-Burn-a-Bootloader-to-Clone-Arduino-Nano-30/  "Bootloader") If you successfully did that have a look at the **YES** section above and upload the right [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) onto your Arduino Nano.
+              - **YES**. Upload this [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) you can also find it in the [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip).  
+              - **NO**. You probably have a cloned Arduino Nano board. You will have to reboot it by following these instructions [here.](http://www.instructables.com/id/How-To-Burn-a-Bootloader-to-Clone-Arduino-Nano-30/  "Bootloader") If you successfully did that have a look at the **YES** section above and upload the right [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) onto your Arduino Nano.
 
 ## 3. Code ##
 
@@ -46,17 +46,15 @@ Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_B
 * You will need the **USB-cable** as well as the **power supply** cable connected to the board
 * The code is written in Python 2.7, make sure you do not run it with Python 3
 * Download the following libraries for Python 2.7:
-    * tkinter
-    * pySerial
-    * time
-    * math
-    * numpy
-    * pyaudio
-    * speech_recognition
+    * [Tkinter](https://docs.python.org/2/library/tkinter.html)
+    * [pySerial](https://pypi.python.org/pypi/pyserial/2.7)
+    * [numpy](http://www.numpy.org)
+    * [pyaudio]()
+    * [speech_recognition](https://pypi.python.org/pypi/SpeechRecognition/)
 
-  for downloading them for the specific python2 version try to use the following command:
+  for downloading them for the specific python2 version I used the following command:
 
-  `> python2 pip -m <libary>`
+  `python2 pip install <name of library>`
 
 
 All the code that we used by now is from the [LittleArm Website](https://www.littlearmrobot.com/). In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
