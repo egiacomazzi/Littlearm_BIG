@@ -20,7 +20,6 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 2. Did the arm move to a starting-position?
       -> **YES**, great have a look at the Code section of this README **CODE link**.
       -> **NO**, check the following things:
-
           Is it possible to upload Arduino Sketches onto the board?
           -> **YES**, upload the sketch you will find in the .zip folder or just download this: **zipfile here**
           -> **NO**, you probably have a cloned Arduino Nano. You will have to reboot it and please follow the instructions [here.](http://www.instructables.com/id/How-To-Burn-a-Bootloader-to-Clone-Arduino-Nano-30/  "Bootloader") If you successfully did that have a look at the **YES** section above and upload the right sketch onto your Arduino Nano.
@@ -60,7 +59,7 @@ Open the LittleArmBIG_GUI_VO_4.1.py and run it on your computer/Mac
   '''> python2 pip -m <libary>'''
 
 
-All the code that we used by now is from the LittleArm_BIG Website **website**. In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look 
+All the code that we used by now is from the LittleArm_BIG Website **website**. In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
 
 ## 4. My Code ##
 **to be continued...**
