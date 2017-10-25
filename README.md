@@ -18,7 +18,7 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 ## 2. First steps ##
 1. Connect power supply and switch on the Arduino board (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
 2. Did the arm move to its starting-position?  
-      - **YES**. Great, have a look at the [Code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
+      - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
           Is it possible to upload Arduino Sketches onto the board?  
               - **YES**, upload the [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) or download the whole zip file: [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip)  
