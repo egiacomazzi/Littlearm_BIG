@@ -69,6 +69,7 @@ What is this *command*?
 - a string without spaces
 - composed of the angles the servo should go to and the speed of the movement
 ```python
+#starting-position
 "108,90,100,94,97,65,8"
 ```
 
@@ -82,7 +83,9 @@ What is this *command*?
 | 65     | gripper   | 24 - 75        |
 | 8      | speed     | 3 - 8          |
 
-
+Possible next steps:
+- play around with sad/happy/angry movements to find authentic emotional reaction
+- find function that gives back that Arduino finished last movement
 
 
 
