@@ -62,7 +62,7 @@ All the code that we used by now is from the [LittleArm Website](https://www.lit
 
 ## 4. My Code ##
 
-Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/tap_button.py) I comment it to explain what I did.
+Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/tools_LittleArm_big_Elena.py) I comment it to explain what I did.
 
 #### Good to know: ####
 What is this *command*?
