@@ -17,7 +17,7 @@ Use this website to put the robot-arm together:
 * power  cable stopped working
 
 ## 2. First steps ##
-1. Connect power cable to the Arduino board and switch it on ![file here](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/switch.jpg "Switch")(there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
+1. Connect power cable to the Arduino board and switch it on <img src="https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images//switch.jpg  height="200" width="300">
 2. Did the arm move to its starting-position?  
       - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
