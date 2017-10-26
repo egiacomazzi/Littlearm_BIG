@@ -10,13 +10,13 @@ Use this website to put the robot-arm together:
 #### Problems I had during construction: ####
 * one servo did not work at the beginning -> opened it up and put it back together -> servo worked
 * had to file the *elbow* to let the arm move without resistance
-insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
+ **picture here** ![file here](/path/img.jpg "elbow")
 * one of the servo gripper fingers broke
 * the wrist yoke broke and I had to glue it with the strongest glue the IT had (waited 24h)
 * power  cable stopped working
 
 ## 2. First steps ##
-1. Connect power cable to the Arduino board and switch it on (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
+1. Connect power cable to the Arduino board and switch it on **insert picture**(there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
 2. Did the arm move to its starting-position?  
       - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
@@ -66,7 +66,7 @@ Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/maste
 
 #### Good to know: ####
 What is this *command*?
-- a string without spaces
+- a string without spaces and numbers separated by a comma
 - composed of the angles the servo should go to and the speed of the movement
 ```python
 #starting-position
@@ -82,6 +82,8 @@ What is this *command*?
 | 97     | wFlex     | 5 - 175        |
 | 65     | gripper   | 24 - 75        |
 | 8      | speed     | 3 - 8          |
+
+- the Arduino sketch needs information in exactly this format
 
 Possible next steps:
 - play around with sad/happy/angry movements to find authentic emotional reaction
