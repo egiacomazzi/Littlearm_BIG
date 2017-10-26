@@ -72,15 +72,15 @@ What is this *command*?
 "108,90,100,94,97,65,8"
 ```
 
-    | angle  | servo     | possible input |
-    | -------|:---------:|---------------:|
-    | 108    | base      | 5 - 175        |
-    | 90     | shoulder  | 5 - 175        |
-    | 100    | elbow     | 5 - 175        |
-    | 94     | wRot      | 5 - 175        |
-    | 97     | wFlex     | 5 - 175        |
-    | 65     | gripper   | 24 - 75        |
-    | 8      | speed     | 3 - 8          |
+| angle  | servo     | possible input |
+| -------|:---------:|---------------:|
+| 108    | base      | 5 - 175        |
+| 90     | shoulder  | 5 - 175        |
+| 100    | elbow     | 5 - 175        |
+| 94     | wRot      | 5 - 175        |
+| 97     | wFlex     | 5 - 175        |
+| 65     | gripper   | 24 - 75        |
+| 8      | speed     | 3 - 8          |
 
 
 
