@@ -10,13 +10,13 @@ Use this website to put the robot-arm together:
 #### Problems I had during construction: ####
 * one servo did not work at the beginning -> opened it up and put it back together -> servo worked
 * had to file the *elbow* to let the arm move without resistance
- **picture here** ![file here](/Users/macbookpro/Desktop/_MG_2719 Kopie.jpg "elbow")
+ **picture here** ![file here](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/elbow_file_area.jpg "elbow")
 * one of the servo gripper fingers broke
 * the wrist yoke broke and I had to glue it with the strongest glue the IT had (waited 24h)
 * power  cable stopped working
 
 ## 2. First steps ##
-1. Connect power cable to the Arduino board and switch it on ![file here](/Users/macbookpro/Desktop/_MG_2727 Kopie.jpg "Switch")(there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
+1. Connect power cable to the Arduino board and switch it on ![file here](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/switch.jpg "Switch")(there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
 2. Did the arm move to its starting-position?  
       - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
