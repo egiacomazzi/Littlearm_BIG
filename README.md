@@ -7,13 +7,13 @@ In this document I will put together the steps I took working with the Kickstart
 Use this website to put the robot-arm together:
 [Construction of LittleArm_BIG](http://www.instructables.com/id/LittleArm-Big/  "Construction of LittleArm_BIG")
 
-#### Problems I have had during construction: ####
+#### Problems I had during construction: ####
 * one servo did not work at the beginning -> opened it up and put it back together -> servo worked
 * had to file the *elbow* to let the arm move without resistance
 insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 * one of the servo gripper fingers broke
 * the wrist yoke broke and I had to glue it with the strongest glue the IT had (waited 24h)
-* power supply cable stopped to work
+* power  cable stopped working
 
 ## 2. First steps ##
 1. Connect power supply to the Arduino board and switch it on (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
