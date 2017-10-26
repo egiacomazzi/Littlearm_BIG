@@ -19,6 +19,7 @@ Use this website to put the robot-arm together:
 ## 2. First steps ##
 1. Connect power cable to the Arduino board and switch it on
 <img src="https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/switch.jpg"  height="200" width="300">  
+
 2. Did the arm move to its starting-position?  
       - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
