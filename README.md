@@ -62,5 +62,28 @@ All the code that we used by now is from the [LittleArm Website](https://www.lit
 
 ## 4. My Code ##
 
-Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/tap_button.py) and let me know what you programmed your robot to do!
+Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/tap_button.py) I comment it to explain what I did.
+
+#### Good to know: ####
+What is this *command*?
+- a string without spaces
+- composed of the angles the servo should go to and the speed of the movement
+
+    ´"108,90,100,94,97,65,8"´
+
+    |angle  |servo    |possible input |
+    |-------|---------|---------------|
+    |108    |base     |5 - 175        |
+    |90     |shoulder |5 - 175        |
+    |100    |elbow    |5 - 175        |
+    |94     |wRot     |5 - 175        |
+    |97     |wFlex    |5 - 175        |
+    |65     |gripper  |24 - 75        |
+    |8      |speed    |3 - 8          |
+
+
+
+
+
+Let me know what you programmed your robot to do!
 Cheers.
