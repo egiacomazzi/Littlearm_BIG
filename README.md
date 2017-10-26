@@ -68,8 +68,9 @@ Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/maste
 What is this *command*?
 - a string without spaces
 - composed of the angles the servo should go to and the speed of the movement
-
-    ´"108,90,100,94,97,65,8"´
+```python
+"108,90,100,94,97,65,8"
+```
 
     |angle  |servo    |possible input |
     |-------|---------|---------------|
