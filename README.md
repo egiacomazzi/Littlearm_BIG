@@ -60,6 +60,8 @@ Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_B
 
 All the code that we used by now is from the [LittleArm Website](https://www.littlearmrobot.com/). In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a more precise look at the code they supply as well as the documentations (particularly [pySerial](https://pypi.python.org/pypi/pyserial/2.7)).
 
+---
+
 ## 4. My Code ##
 
 Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/tools_LittleArm_big_Elena.py) I comment it to explain what I did.
@@ -68,6 +70,7 @@ Have a look at [my code](https://github.com/egiacomazzi/Littlearm_BIG/blob/maste
 What is this *command*?
 - a string without spaces and numbers separated by a comma
 - composed of the angles the servo should go to and the speed of the movement
+- the Arduino sketch needs information in exactly this format
 ```python
 #starting-position
 "108,90,100,94,97,65,8"
@@ -83,13 +86,12 @@ What is this *command*?
 | 65     | gripper   | 24 - 75        |
 | 8      | speed     | 3 - 8          |
 
-- the Arduino sketch needs information in exactly this format
 
 Possible next steps:
 - play around with sad/happy/angry movements to find authentic emotional reaction
 - find function that gives back that Arduino finished last movement
 
-
+---
 
 Let me know what you programmed your robot to do!
 Cheers.
