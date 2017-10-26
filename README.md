@@ -10,7 +10,7 @@ Use this website to put the robot-arm together:
 #### Problems I had during construction: ####
 * one servo did not work at the beginning -> opened it up and put it back together -> servo worked
 * had to file the *elbow* to let the arm move without resistance
-<img src="https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/elbow_file_area.jpg" height="97" width="194">
+<img src="https://github.com/egiacomazzi/Littlearm_BIG/blob/master/images/elbow_file_area.jpg" height="750" width="500">
 
 * one of the servo gripper fingers broke
 * the wrist yoke broke and I had to glue it with the strongest glue the IT had (waited 24h)
