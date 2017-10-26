@@ -16,12 +16,12 @@ insert picture here: **picture here** ![file here](/path/img.jpg "elbow")
 * power  cable stopped working
 
 ## 2. First steps ##
-1. Connect power supply to the Arduino board and switch it on (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
+1. Connect power cable to the Arduino board and switch it on (there is a small switch directly next to the entrance of the power supply cable; under the USB cable if it is already plugged in)
 2. Did the arm move to its starting-position?  
       - **YES**. Great, have a look at the [code section](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/README.md#3-code) of this README.  
       - **NO**. Check the following things:  
           Is it possible to upload Arduino Sketches onto the board?  
-              - **YES**. Upload this [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) you can also find it in the [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip).  
+              - **YES**. Upload this [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino). You can also find it in the [LittleArm Big Package](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/littlearm_big_software.zip) I downloaded from the [LittleArm download website](https://www.littlearmrobot.com/downloads.html  "Downloads").  
               - **NO**. You probably have a cloned Arduino Nano board. You will have to reboot it by following these instructions [here.](http://www.instructables.com/id/How-To-Burn-a-Bootloader-to-Clone-Arduino-Nano-30/  "Bootloader") If you successfully did that have a look at the **YES** section above and upload the right [sketch](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBIG_Sketch.ino) onto your Arduino Nano.
 
 ## 3. Code ##
@@ -43,7 +43,7 @@ How does it work?
 Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_BIG/blob/master/LittleArmBig_GUI_V0_4.1.py) and run it on your computer/Mac.
 
 #### Good to know: ####
-* You will need the **USB-cable** as well as the **power supply** cable connected to the board
+* You will need the **USB-cable** as well as the **power cable** connected to the board
 * The code is written in Python 2.7, make sure you do not run it with Python 3
 * Download the following packages for Python 2.7:
     * [Tkinter](https://docs.python.org/2/library/tkinter.html)
@@ -52,12 +52,13 @@ Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_B
     * [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)
     * [speech_recognition](https://pypi.python.org/pypi/SpeechRecognition/)
 
-  for downloading them for the specific python2 version I used the following command:
+  to download them for the specific python2 version I used the following command:
 
   `python2 -m pip install <name of package>`
 
+---
 
-All the code that we used by now is from the [LittleArm Website](https://www.littlearmrobot.com/). In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a look
+All the code that we used by now is from the [LittleArm Website](https://www.littlearmrobot.com/). In the following I will explain my own code and what I aimed to do with it. To understand how the serial connection works and how to program these just have a more precise look at the code they supply as well as the documentations (particularly [pySerial](https://pypi.python.org/pypi/pyserial/2.7)).
 
 ## 4. My Code ##
 
