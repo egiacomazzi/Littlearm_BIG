@@ -49,7 +49,6 @@ Open the [LittleArmBIG_GUI_VO_4.1.py](https://github.com/egiacomazzi/Littlearm_B
 * You will need the **USB-cable** as well as the **power cable** connected to the board
 * The code is written in Python 2.7, make sure you do not run it with Python 3
 * Download the following packages for Python 2.7:
-    * [Tkinter](https://docs.python.org/2/library/tkinter.html)
     * [pySerial](https://pypi.python.org/pypi/pyserial/2.7)
     * [numpy](http://www.numpy.org)
     * [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)
